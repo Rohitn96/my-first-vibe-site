@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-[#0a0a0a] text-zinc-200 antialiased;
+}
+
+/* Keep typography tight and Nordic-minimal by default. */
+h1,
+h2,
+h3,
+p {
+  @apply tracking-tight;
+}
+
+a {
+  @apply text-inherit;
+}
+
